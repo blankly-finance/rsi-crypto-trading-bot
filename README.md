@@ -1,14 +1,20 @@
-# Binance - RSI Crypto Trading Bot 
+# RSI Crypto Trading Bot - Binance
 
-A Crypto Trading Bot on Binance using RSI in 25 Lines 
+A Crypto Trading Bot on Binance trading BTCUSDT and ETHUSDT using RSI in *25 Lines of Code*
 
 ## Getting Started
 
 Note Python Version 3.7+ is supported
 
-1. ``` $ pip install blankly ```
+1. First install Blankly using `pip`. Blankly is hosted on [PyPi](https://pypi.org/project/Blankly/). 
+```bash
+$ pip install blankly 
+```
 2. Ensure that you have your Binance API Keys connected, check [here](https://docs.blankly.finance/config/keys.json) for more deatils
-3. ``` $ python bot.py ```
+3. Run the python file
+```bash
+$ python bot.py 
+```
 4. Woila! You have a working Binance Crypto Trading Bot that trades BTCUSDT and ETHUSDT
 
 ## Backtest Output
