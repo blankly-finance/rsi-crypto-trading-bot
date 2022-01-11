@@ -41,7 +41,7 @@ Resampled Time:                    86400.0
 
 ## How does this work? 
 
-This uses the [`blankly` package](https://github.com/Blankly-Finance/Blankly) to build a [trading strategy](https://docs.blankly.finance/core/strategy) in just 25 lines of code. 
+This uses the [blankly package](https://github.com/Blankly-Finance/Blankly) to build a [trading strategy](https://docs.blankly.finance/core/strategy) in just 25 lines of code. 
 We are able to utilize the `Blankly.Strategy` object to easily add our `rsi_price_event(price, symbol, state)` function that handles our core RSI logic that trades when RSI is less than 30 and sells when it is greater than 70.
 
 ## What is RSI?
