@@ -43,8 +43,8 @@ strategy = Strategy(exchange)
 strategy.add_price_event(rsi_price_event, symbol='BTC-USDT', resolution='1h', init=init)
 strategy.add_price_event(rsi_price_event, symbol='ETH-USDT', resolution='1h', init=init)
 
-results = strategy.backtest(to='2y', initial_values={'USDT': 10000})
-print(results)
-
-# Take this strategy live by uncommenting this line
-# strategy.start()
+if blankly.is_deployed:
+    strategy.start()
+else:
+    results = strategy.backtest(to='2y', initial_values={'USDT': 10000})
+    print(results)
